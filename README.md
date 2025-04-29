@@ -6,7 +6,7 @@ A simple Chrome extension to save any image from the web as PNG, JPG or WebP —
 
 You can install the extension directly from the Chrome Web Store:
 
-[![Install from Chrome Web Store](https://img.shields.io/chrome-web-store/v/EXTENSION_ID?label=Install%20now&style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore/detail/EXTENSION_ID)
+[![Install from Chrome Web Store](https://img.shields.io/chrome-web-store/v/lfmnkgdmceifplfmmhjjincclbjonfpd?label=Install%20now&style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore/detail/lfmnkgdmceifplfmmhjjincclbjonfpd)
 
 
 ## 🧩 Features

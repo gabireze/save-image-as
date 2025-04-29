@@ -42,7 +42,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
   if (info.menuItemId === "store") {
     chrome.tabs.create({
-      url: "https://chrome.google.com/webstore/detail/EXTENSION_ID",
+      url: "https://chrome.google.com/webstore/detail/lfmnkgdmceifplfmmhjjincclbjonfpd",
     });
     return;
   }

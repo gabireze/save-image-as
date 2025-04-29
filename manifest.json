@@ -1,0 +1,24 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "author": "Gabriel de Rezende Gonçalves",
+  "homepage_url": "https://gabireze.com.br",
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "scripting",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

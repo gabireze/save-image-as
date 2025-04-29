@@ -1,0 +1,23 @@
+{
+  "extName": {
+    "message": "Save Image As..."
+  },
+  "extDescription": {
+    "message": "Save any image as PNG, JPG or WebP directly from the right-click menu."
+  },
+  "contextMenuPNG": {
+    "message": "PNG"
+  },
+  "contextMenuJPG": {
+    "message": "JPG"
+  },
+  "contextMenuWebP": {
+    "message": "WebP"
+  },
+  "menuAboutGitHub": {
+    "message": "View source on GitHub"
+  },
+  "menuOpenStore": {
+    "message": "View on Chrome Web Store"
+  }
+}

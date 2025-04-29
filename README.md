@@ -2,6 +2,10 @@
 
 A simple Chrome extension to save any image from the web as PNG, JPG or WebP — directly from the right-click menu.
 
+## 📸 Screenshots
+
+![Cover](cover.png)
+
 ## 🛒 Available on the Chrome Web Store
 
 You can install the extension directly from the Chrome Web Store:

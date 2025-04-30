@@ -48,12 +48,20 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   }
 
   if (info.mediaType === "image" && info.srcUrl) {
-    chrome.storage.sync.get(["imageQuality"], (result) => {
-      const quality = result.imageQuality ?? 0.92;
+    chrome.storage.sync.get(["jpegQuality", "webpQuality"], (result) => {
+      const format = info.menuItemId;
+      let quality = 0.92;
+
+      if (format === "JPG") {
+        quality = result.jpegQuality ?? 0.92;
+      } else if (format === "WebP") {
+        quality = result.webpQuality ?? 0.92;
+      }
+
       chrome.scripting.executeScript({
         target: { tabId: tab.id },
         func: convertAndDownloadImage,
-        args: [info.srcUrl, info.menuItemId, quality],
+        args: [info.srcUrl, format, quality],
       });
     });
   }

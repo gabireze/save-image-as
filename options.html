@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="optionsTitle">Extension Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-i18n="optionsTitle">Extension Options</h1>
+
+      <section class="section">
+        <h2 data-i18n="sectionQuality">Image Quality</h2>
+
+        <label for="jpegQualityRange" data-i18n="optionsLabelJPG"
+          >JPG quality:</label
+        >
+        <input
+          type="range"
+          id="jpegQualityRange"
+          min="0.1"
+          max="1.0"
+          step="0.01"
+        />
+        <p>
+          <span data-i18n="optionsCurrent">Current:</span>
+          <span id="jpegQualityValue">...</span>
+        </p>
+
+        <label for="webpQualityRange" data-i18n="optionsLabelWebP"
+          >WebP quality:</label
+        >
+        <input
+          type="range"
+          id="webpQualityRange"
+          min="0.1"
+          max="1.0"
+          step="0.01"
+        />
+        <p>
+          <span data-i18n="optionsCurrent">Current:</span>
+          <span id="webpQualityValue">...</span>
+        </p>
+
+        <button id="resetBtn" class="primary" data-i18n="optionsRestore">
+          Restore Defaults
+        </button>
+        <p
+          id="note"
+          class="note"
+          data-i18n="optionsRestored"
+          style="display: none"
+        >
+          ✅ Defaults restored.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 data-i18n="sectionInfo">About This Extension</h2>
+
+        <p id="extName"><strong>Save Image As...</strong></p>
+
+        <p id="extDescription">
+          Save any image as PNG, JPG or WebP directly from the right-click menu.
+        </p>
+
+        <ul>
+          <li data-i18n="featureContextMenu">
+            Right-click any image and choose the format (PNG, JPG, WebP)
+          </li>
+          <li data-i18n="featureQualitySettings">
+            Customize JPG and WebP quality (40% to 100%) in the options page
+          </li>
+          <li data-i18n="featureFilename">
+            Automatically keeps the original filename when possible
+          </li>
+          <li data-i18n="featureLanguages">
+            Multilingual support: English 🇺🇸 and Portuguese 🇧🇷
+          </li>
+          <li data-i18n="featurePrivacy">
+            100% local — no image data is sent to servers
+          </li>
+        </ul>
+
+        <p>
+          <strong data-i18n="labelVersion">Version:</strong>
+          <span id="extVersion"></span>
+        </p>
+
+        <div class="links">
+          <a href="https://github.com/gabireze/save-image-as" target="_blank"
+            >🌐 GitHub</a
+          >
+          <a
+            href="https://chrome.google.com/webstore/detail/lfmnkgdmceifplfmmhjjincclbjonfpd"
+            target="_blank"
+            >🛒 Chrome Web Store</a
+          >
+        </div>
+
+        <p class="credit" style="margin-top: 16px">
+          Made with ❤️ by
+          <a href="https://gabireze.com.br" target="_blank"
+            >Gabriel de Rezende Gonçalves</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>

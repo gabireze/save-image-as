@@ -19,5 +19,47 @@
   },
   "menuOpenStore": {
     "message": "Ver na Chrome Web Store"
+  },
+  "optionsTitle": {
+    "message": "Opções da Extensão"
+  },
+  "sectionQuality": {
+    "message": "Qualidade da Imagem"
+  },
+  "optionsLabelJPG": {
+    "message": "Qualidade JPG:"
+  },
+  "optionsLabelWebP": {
+    "message": "Qualidade WebP:"
+  },
+  "optionsCurrent": {
+    "message": "Atual:"
+  },
+  "optionsRestore": {
+    "message": "Restaurar padrões"
+  },
+  "optionsRestored": {
+    "message": "✅ Qualidade padrão restaurada."
+  },
+  "sectionInfo": {
+    "message": "Sobre a Extensão"
+  },
+  "labelVersion": {
+    "message": "Versão:"
+  },
+  "featureContextMenu": {
+    "message": "Clique com o botão direito em qualquer imagem e escolha o formato (PNG, JPG, WebP)"
+  },
+  "featureQualitySettings": {
+    "message": "Personalize a qualidade do JPG e WebP (de 40% a 100%) na página de opções"
+  },
+  "featureFilename": {
+    "message": "Mantém automaticamente o nome original do arquivo quando possível"
+  },
+  "featureLanguages": {
+    "message": "Suporte multilíngue: Português 🇧🇷 e Inglês 🇺🇸"
+  },
+  "featurePrivacy": {
+    "message": "100% local — nenhuma imagem é enviada a servidores"
   }
 }

@@ -19,5 +19,47 @@
   },
   "menuOpenStore": {
     "message": "View on Chrome Web Store"
+  },
+  "optionsTitle": {
+    "message": "Extension Options"
+  },
+  "sectionQuality": {
+    "message": "Image Quality"
+  },
+  "optionsLabelJPG": {
+    "message": "JPG quality:"
+  },
+  "optionsLabelWebP": {
+    "message": "WebP quality:"
+  },
+  "optionsCurrent": {
+    "message": "Current:"
+  },
+  "optionsRestore": {
+    "message": "Restore Defaults"
+  },
+  "optionsRestored": {
+    "message": "✅ Defaults restored."
+  },
+  "sectionInfo": {
+    "message": "About This Extension"
+  },
+  "labelVersion": {
+    "message": "Version:"
+  },
+  "featureContextMenu": {
+    "message": "Right-click any image and choose the format (PNG, JPG, WebP)"
+  },
+  "featureQualitySettings": {
+    "message": "Customize JPG and WebP quality (40% to 100%) in the options page"
+  },
+  "featureFilename": {
+    "message": "Automatically keeps the original filename when possible"
+  },
+  "featureLanguages": {
+    "message": "Multilingual support: English 🇺🇸 and Portuguese 🇧🇷"
+  },
+  "featurePrivacy": {
+    "message": "100% local — no image data is sent to servers"
   }
 }

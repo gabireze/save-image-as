@@ -48,3 +48,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by [Gabriel de Rezende Gonçalves](https://gabireze.com.br)
+
+<!-- GitAds-Verify: XST1ZQHQTE5U1XA4472UHKK14D2TDX9B -->

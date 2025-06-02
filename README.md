@@ -6,6 +6,9 @@ A simple Chrome extension that lets you save any image from the web as **PNG**, 
 
 ![Cover](cover.png)
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=gabireze/save-image-as@github)](https://gitads.dev/v1/ad-track?source=gabireze/save-image-as@github)
+
 ## 🛒 Available on the Chrome Web Store
 
 Install the extension directly from the Chrome Web Store:
